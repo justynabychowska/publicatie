@@ -1,0 +1,10 @@
+#homesection{
+  background-image: url("../images/1a.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#homesection .navbar{padding-top:2.2vh;padding-bottom:2.2vh;}
+
+.hide{display: none}
