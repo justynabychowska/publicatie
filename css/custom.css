@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body{
+  /*hier kompt de bepaling vd typografie */
+  /*font-family:''*/
+}
 
 img{
   height: 100vh;
@@ -16,9 +19,12 @@ img{
   margin-left: auto;
 }
 /* */
-h1{}
-h2{
-  margin-top: 3vh;
+h1{font-family: 'Muli', sans-serif;
+font-weight: 700;
+font-size: 30px;
+margin-top: 200px;}
+h2{font-family: 'Muli', sans-serif;
+  margin-top: 40vh;
   font-weight: bold;
   font-size: 16px;
 }
@@ -26,7 +32,11 @@ h3{}
 h4{}
 h5{}
 h6{}
-p{font-family: 'Helvetica', sans-serif;}
+p{font-family: 'Lora', serif;
+margin-top: 30px;
+font-size: 15px;
+}
+br{ line-height: 30px;}
 
 /* */
 .navbar{top:36px;
@@ -36,13 +46,16 @@ left:30px;position: absolute;}
   margin-left: 4vh;
   position: center;
   color: black;
+  font-family: 'Muli', sans-serif;
 font-size: 22px;
 font-weight: 600;
 font-kerning: auto;}
 .description{color:#cccccc;
+font-family: 'Muli', sans-serif;
 font-size: 15px;
 font-weight: 420;}
 .nav-link{color: #000000;
+font-family: 'Muli', sans-serif;
 font-size: 18px;
 font-weight: 420;}
 /* */
@@ -58,21 +71,21 @@ font-weight: 420;}
 .contentimage{
   padding-top: 3vh;
 }
+.carousel{
+}
+
 .contentsectioncol3{
   padding-top:68.4vh;
   font-size: 18px;
   font-kerning: auto;
 }
 .contentsectiontitle{
-  margin-top: 200px;
-  font-weight: bold;
-  font-size: 30px;
+
 }
 .contentsectiontitle h1,
 .contentsectiontitle h2,
 .contentsectiontitle h3,
 .contentsectiontitle p{
-  font-size: 1rem;
 }
 .contentimageworks{
   padding-top: 3vh;
@@ -84,7 +97,7 @@ font-weight: 420;}
 
 }
 
-.carousel-inner.vertical > .item {
+/* .carousel-inner.vertical > .item {
     -webkit-transition: .10s ease-in-out bottom;
     -moz-transition: .10s ease-in-out bottom;
     -o-transition: .10s ease-in-out bottom;
@@ -164,4 +177,4 @@ font-weight: 420;}
 }
 .carousel{
     margin-top:80px;
-}
+}*/
